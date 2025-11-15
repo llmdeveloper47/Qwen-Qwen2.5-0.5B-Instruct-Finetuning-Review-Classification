@@ -3,7 +3,8 @@ Repository For Hosting Qwen-3-0.6b Finetuning Code for Amazon 5x5 Review Classif
 
 
 ## Creating Train / Eval / Split
-Refer to the dataset_analysis.ipynb notebook to load the dataset and split it into Train / Eval / Test Datasets
+ - Create a dataset folder to save the dataset
+ - Refer to the dataset_analysis.ipynb notebook under src/experiment/ to load the dataset and split it into Train / Eval / Test Datasets
 
 ## Converting to Huggingface Format and Uploding to Hub
 Refer to src/scripts/convert_to_huggingface_dataset.py script to load the locally saved datasets and push to hub ( make sure to create a repository , or just download the dataset from the hub repo provided)
